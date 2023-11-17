@@ -23,7 +23,7 @@ jobs:
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
-        go-version: ${{matrix.go_version}
+        go-version: ${{matrix.go_version}}
 
     - name: Build-DB
       run: docker-compose build
@@ -36,7 +36,7 @@ jobs:
 
   build:
     needs: test
-    runs-on: ${{matrix.os}
+    runs-on: ${{matrix.os}}
     strategy:
       matrix:
         os: ['ubuntu-latest', 'ubuntu-18.04']
