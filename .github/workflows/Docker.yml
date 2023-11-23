@@ -41,5 +41,6 @@ jobs:
         # Generate provenance attestation for the build (shorthand for --attest=type=provenance)
     # Push is a shorthand for --output=type=registry
         push: true
-        # List of tags          
+        # List of tags   
+        tags: ${{github.ref_name}}
           
