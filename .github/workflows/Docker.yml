@@ -40,9 +40,9 @@ jobs:
         file: ./Dockerfile
         # Generate provenance attestation for the build (shorthand for --attest=type=provenance)
     # Push is a shorthand for --output=type=registry
-        push: true
-        # List of tags   
         tags: gabrielstonee/goapplication:main
+        push: true
+        # List of tags
         #tags: ghcr.io/org/${{ github.token }}/
         github-token: ${{ github.token }}
           
