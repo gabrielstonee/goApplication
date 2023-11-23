@@ -42,5 +42,5 @@ jobs:
     # Push is a shorthand for --output=type=registry
         push: true
         # List of tags   
-        tags: ghcr.io/gabrielstonee/goapplication:${{github_ref_name}}
+        tags: ghcr.io/gabrielstonee/goapplication:${{github.ref_name}}
           
