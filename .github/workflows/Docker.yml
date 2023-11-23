@@ -41,7 +41,5 @@ jobs:
         # Generate provenance attestation for the build (shorthand for --attest=type=provenance)
     # Push is a shorthand for --output=type=registry
         push: true
-        # List of tags
-        tags: goapplication:${{github.ref_name}}
-        # GitHub Token used to authenticate against a repository for Git context          
+        # List of tags          
           
