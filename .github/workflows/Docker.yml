@@ -42,6 +42,6 @@ jobs:
     # Push is a shorthand for --output=type=registry
         push: true
         # List of tags
-        tags: gabrielstonee/goapplication:${{github.ref_name}}
+        tags: gabrielstonee/goapplication/${{github.ref_name}}
         # GitHub Token used to authenticate against a repository for Git context          
           
